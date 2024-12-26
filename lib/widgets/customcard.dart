@@ -7,7 +7,7 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 15),
+      padding: const EdgeInsets.symmetric(vertical: 15.0,horizontal: 15),
       child: Container(
         height: 25.h,
         width: 70.w,
@@ -16,9 +16,9 @@ class CustomCard extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: Colors.black.withOpacity(0.2),
-              spreadRadius: 0.2,
-              blurRadius: 20.0,
-              offset: Offset(0,2),
+              spreadRadius: 0.8,
+              blurRadius: 8.0,
+              offset: Offset(0,5),
             )
           ],
           borderRadius: BorderRadius.circular(10),
